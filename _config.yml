@@ -1,16 +1,16 @@
-title: u know who 共享信息页
+title: U Know Who 信息共享页
+theme: jekyll-theme-cayman
+
 nav:
 - name: 最近活动
   link: /
 - name: 沾shit商家
-  link: /vip.html
-- name: 开票教程 
-  link: /hp.html   
+  link: /vip
+- name: 开票教程
+  link: /hp
 - name: 代言避雷
-  link: /bilei.html
+  link: /bilei
 - name: 证据包
-  link: /zj.html 
+  link: /zj
 - name: 直通车
-  link: /ztc.html 
-theme: jekyll-theme-cayman
-
+  link: /ztc
