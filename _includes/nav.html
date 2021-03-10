@@ -1,7 +1,7 @@
 <nav>
   |
   {% for item in site.nav %}
-  {% if page.url == item.link %}
+  {% if page.url == {{ item.link | append: ".html" }} %}
     <span style="color: red;">{{ item.name }}</span>
   {% else %}
     <a class="{{ page.url }}" href="{{ item.link }}">{{ item.name }}</a>
